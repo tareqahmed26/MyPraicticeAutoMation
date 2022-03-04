@@ -19,6 +19,7 @@ public class Base {
 		driver.get("https://www.youtube.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		System.out.println(driver.getTitle());
 
 	}
 
